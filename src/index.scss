@@ -7,6 +7,17 @@ html, body, #root, .example-page, .example-canvas {
   height: 100%;
 }
 
+.example-page {
+  position: relative;
+}
+
+.example-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
